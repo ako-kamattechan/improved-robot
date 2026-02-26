@@ -1,20 +1,18 @@
-# Semantic Compression: Relax / Constrain Demo (v0.1.0)
+This is the first public release of **improved-robot**.
 
-Single-file visualization of a control loop:
+It’s a single-file HTML demo that visualizes a simple control loop:
 
 RELAX → CONSTRAIN → FRAME_SHIFT
 
-- **RELAX** expands candidate space (exploration)
-- **CONSTRAIN** projects onto a target structure (selection)
-- **FRAME_SHIFT** (“not X, it’s Y”) swaps the target manifold
-- Each action is recorded in a **Merkle-like lineage log** (tamper-evident chain)
+- RELAX expands a candidate space (exploration)
+- CONSTRAIN projects candidates onto a target structure (selection)
+- FRAME_SHIFT (“not X, it’s Y”) swaps the target manifold
+- Each action is recorded in a Merkle-like lineage log (tamper-evident history)
 
-## Run
-Open `demo/semantic-compression-v0.1.0.html` in your browser.
+This is a small concept proof to explore how novelty and stability can coexist
+when iterating over evolving artifacts.
 
-## Hotkeys
-- R: RELAX
-- C: CONSTRAIN
-- X: switch frame
-- Space: idle
-- Enter: reset
+**Run:**  
+Open `demo/semantic-compression-v0.1.0.html` in any modern browser.
+
+No build step, no dependencies.
