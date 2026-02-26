@@ -1,4 +1,6 @@
-This is the first public release of **improved-robot**.
+### Run locally
+Download `demo/semantic-compression-v0.1.0.html` and open it directly in your browser.
+(Some platforms block inline scripts in previews.)
 
 It’s a single-file HTML demo that visualizes a simple control loop:
 
